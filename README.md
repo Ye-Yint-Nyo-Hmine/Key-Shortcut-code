@@ -28,6 +28,8 @@ If you want to change the url, you can just change it in
 url = 'Put your url here'
 
 If you want to change the short cut keys, you only need to change from,
+
+
         if k.find("ctrl_l") > 0:
             li.append('c')
         if k.find("Key") == -1:
@@ -43,6 +45,8 @@ If you want to change the short cut keys, you only need to change from,
                         l_o = li[-1]
         
 to,
+
+
         if k.find("Put your first key here") > 0:
             li.append('c')
         if k.find("Key") == -1:
